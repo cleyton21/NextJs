@@ -26,11 +26,11 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-          <header>
+          <header style={{ backgroundColor: "green" }}>
             <h1>Header</h1>
           </header>
         {children}
-        <footer>
+        <footer style={{ backgroundColor: "green" }}>
           <h1>Footer</h1>
         </footer>
       </body>
